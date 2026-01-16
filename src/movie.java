@@ -8,17 +8,4 @@ public class Movie {
         aRunTime = pRunTime;
         aGenre = pGenre;
     }
-
-    public String getDirector(){
-        return aDirector;
-    }
-
-    public int getRunTime(){
-        return aRunTime;
-    }
-
-    public Genre getGenre(){
-        return aGenre;
-    }
-
 }
