@@ -1,11 +1,9 @@
 public class Movie {
-    private final String aDirector;
-    private final int aRunTime;
-    private final Genre aGenre;
+    private String aTitle;
+    private int aRunTime;
 
-    public Movie(String pDirector, int pRunTime, Genre pGenre){
-        aDirector = pDirector;
+    public Movie(String pTitle, int pRunTime){
+        aTitle = pTitle;
         aRunTime = pRunTime;
-        aGenre = pGenre;
     }
 }
