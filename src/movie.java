@@ -4,7 +4,6 @@ public class Movie {
     private final Genre aGenre;
 
     public Movie(String pDirector, int pRunTime, Genre pGenre){
-        assert pDirector != null && pRunTime > 0 && pGenre != null;
         aDirector = pDirector;
         aRunTime = pRunTime;
         aGenre = pGenre;
